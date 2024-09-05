@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Calendar, momentLocalizer } from 'react-big-calendar';
 import moment from 'moment';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
-import ModalDialog from "./components/Dialog.jsx"; // Ваш компонент модалки
+import ModalDialog from "./components/Dialog.jsx";
 
 const localizer = momentLocalizer(moment);
 
